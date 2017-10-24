@@ -33,12 +33,51 @@ header {
 }
 nav {
     position: absolute;
-    right: 0;
+    right: 40px;
     top: 50%;
     transform: translateY(-50%);
 }
 
 .box-header {
     display: inline-block;
+}
+
+.logo-square {
+    width: 100px;
+}
+
+section {
+    text-align: center;
+}
+
+div {
+    box-sizing: inherit;
+    display: inline-block;
+    padding: 2px;
+    width: 30%;
+}
+
+li:hover [class^="icon-"]:hover, [class*=" icon-"]:hover {
+    font-size: 40px;
+}
+
+footer {
+    background-color: #303030;
+    color: #ffffff;
+    padding: 5px;
+    text-align: center;
+    bottom: 0;
+}
+
+.btn {
+    background-color: #db964a;
+    border: none;
+    border-radius: 5px;
+    font-family: inherit;
+    padding: 5px;
+}
+.btn:hover {
+    background-color: #644721;
+
 }
 
